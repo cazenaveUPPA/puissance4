@@ -1,5 +1,7 @@
 Programme puissance4
 
+CAZENAVE Theo
+
 Ce programme permet de jouer a deux au puissance 4 dans la console. 
 
 processus de compilation :
