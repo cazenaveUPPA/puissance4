@@ -6,7 +6,11 @@ Ce programme permet de jouer a deux au puissance 4 dans la console.
 
 processus de compilation :
 
-$gcc partie.c interface.c creation.c
+il suffit d'ouvrir un terminal, se positionner dans le projet à l'aide de la commande cd (sous linux) et de taper make.
+
+Pour l'exécuter :
+Prérequis : se trouver dan,s le répertoire du projet.
+taper dans le terminal : ./bin/Puissance_4
 
 executer le fichier créé apres compilation et suivez les instructions a l'écran. 
 
