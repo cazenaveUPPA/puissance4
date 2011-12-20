@@ -3,6 +3,7 @@
 #define ROW 6
 #define COL 7
 
+/// Create a new player
 char* playerName(){
   char* name=malloc(80*sizeof(char)); 
   printf("entrer votre nom\n");
@@ -10,6 +11,7 @@ char* playerName(){
   return name;
 }
 
+/// create a new table and initialize it
 int** createTable(){
 
 int i,j;
@@ -33,6 +35,8 @@ for(i=0;i<COL;i++){
 
 }
 
+///clear a table already used before
+/// @param1: int **, table you want to clear
 void clear_table(int **table){
 int i,j;
 

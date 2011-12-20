@@ -149,6 +149,8 @@ int col,row;
 	return 0;	
 }
 
+/// main procedure who lead the game
+/// @param1: int**, table you want to play on
 void partie(int **table){
   char* name1=malloc(20*(sizeof(char)));
   char* name2=malloc(20*sizeof(char));
